@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import CreateNotes from "./CreateNotes";
-import CreateNote from "./CreateNotes";
 import Footer from "./Footer";
 import './Googlekeep.css';
 import Header from "./Header";
