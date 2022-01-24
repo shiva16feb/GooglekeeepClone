@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Playfair Display', serif;
+}
+body{
+    background-color:aliceblue;
+}
+.main_header{
+    width: 100vw;
+    line-height: 40px;
+    background-color:#cea52b;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    box-shadow: 5px 3px 10px 0.1px #373b3e ;
+}
+h2{
+    padding-left: 10px;
+}
+.main_note{
+    width:500px;
+    padding: 15px 10px 5px 10px;
+    margin: 15px auto;
+}
+form{
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 3px 10px 0.1px #373b3e ;
+}
+input{
+    width:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+textarea{
+    width: 100%;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px 0px;
+    background: transparent;
+}
+.MuiButtonBase-root{
+  
+    bottom:0px ;
+    left: 400px;
+    cursor: pointer;
+}
+.note{
+  background-color:white;
+  border-radius: 7px;
+  padding: 10px;
+  float: left;
+  box-shadow: 5px 3px 10px 0.1px #373b3e ;
+  margin: 10px 10px;
+}
+.note h2{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.note p{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+.note .btn{
+    border:none;
+    outline: none;
+    margin-left: 150px;
+}
+.note .btn:hover{
+    background-color: #f5ba13;
+}
+.note .btn:hover .deleteIcon{
+color: #fff;
+}
+footer{
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+    box-shadow: 5px 3px 10px 0.1px #373b3e ;
+}
+@media (max-width:800px){
+    .main_note{
+        margin: 10px ;
+        width:70vw;
+    }
+    .MuiButtonBase-root{
+  
+        bottom:0px ;
+        left: 10px;
+        cursor: pointer;
+    }
+}
+@media (max-width:520px){
+    .main_header{
+        width:100vw;
+    }
+}
