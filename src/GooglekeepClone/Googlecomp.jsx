@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import CreateNotes from "./CreateNotes";
-import Footer from "./Footer";
 import './Googlekeep.css';
 import Header from "./Header";
 import Note from "./Note";
@@ -28,7 +27,6 @@ const Googlecomp = () => {
                 return <Note id={index} key={index} title={val.title} content={val.content} deleteItem={onDelete} />
                })}
            
-           <Footer/>
         </>
     )
 }
