@@ -87,14 +87,6 @@ textarea{
 .note .btn:hover .deleteIcon{
 color: #fff;
 }
-footer{
-    width: 100%;
-    background: transparent;
-    position: absolute;
-    bottom: 0;
-    text-align:center;
-    box-shadow: 5px 3px 10px 0.1px #373b3e ;
-}
 @media (max-width:800px){
     .main_note{
         margin: 10px ;
